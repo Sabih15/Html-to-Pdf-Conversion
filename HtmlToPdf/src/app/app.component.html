@@ -1,4 +1,5 @@
 <button (click)="openHTML()">Click to upload html</button>
-<div [innerHTML]="externalHtml"></div>
+<button (click)="downloadAsPdf()">Download PDF</button>
+<div #dataToExport [innerHTML]="externalHtml"></div>
 
 <router-outlet></router-outlet>
